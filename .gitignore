@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+backend/.venv/
+.pytest_cache/
+backend/.pytest_cache/
+.mypy_cache/
+.pyre/
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+*.db-journal
+.coverage
+.coverage.*
+htmlcov/
+backend/uploads/
+uploads/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+frontend/.vite/
+frontend/.cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor / IDE
+.vscode/
+.idea/
+.agents/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project-specific generated data
+sahaik.db
+backend/sahaik.db
+
+# Local overrides
+docker-compose.override.yml
+
+
+datasets/
